@@ -1,0 +1,9 @@
+$custom-colors: (
+  "red": #900
+);
+
+// $theme-colors: (
+//     "primary": green,
+//     "secondary": blue,
+// );
+$theme-colors: map-merge($theme-colors, $custom-colors);
